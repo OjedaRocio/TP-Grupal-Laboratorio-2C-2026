@@ -7,7 +7,7 @@ Tecnicatura Universitaria en Gestión y Análisis de Datos en Organizaciones · 
 
 | Nombre y apellido | N.º de registro | Usuario de GitHub |
 |---|---|---|
-| Rocio Ojeda | 921426 | @OjedaRocio |
+| Rocio Ojeda | 921426 | OjedaRocio |
 | Valentina Fernández Zurita | 921469 | valentinafernandezu |
 | Hilda Anabel Martinez Uriarte | 921802 | hildaanabel |
 | Tania Andrea Campos Aliaga | 921715 | tania-1604 |
