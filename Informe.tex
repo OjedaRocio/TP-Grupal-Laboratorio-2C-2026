@@ -1,0 +1,318 @@
+\documentclass[11pt,a4paper]{article}
+
+% ==========================================
+% 1. CONFIGURACION GENERAL
+% ==========================================
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-nodecimaldot]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{setspace}
+
+% Margenes y espaciado
+\geometry{
+    left=2.5cm,
+    right=2.5cm,
+    top=2.5cm,
+    bottom=2.5cm
+}
+
+\setstretch{1.15}
+
+% Configuracion de enlaces
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black
+}
+
+% ==========================================
+% 2. PORTADA
+% ==========================================
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+
+    {\large Universidad de Buenos Aires\par}
+    \vspace{0.3cm}
+    {\large Facultad de Ciencias Economicas\par}
+
+    \vspace{1.5cm}
+
+    {\large Tecnicatura Universitaria en
+    Gestion y Analisis de Datos en Organizaciones\par}
+
+    \vspace{1.5cm}
+
+    {\Large\bfseries TRABAJO PRACTICO GRUPAL\par}
+
+    \vspace{0.8cm}
+
+    {\LARGE\bfseries
+    ¿Es verdad que las canciones globales
+    se volvieron mas cortas a lo largo del tiempo?\par}
+
+    \vspace{1cm}
+
+    {\large Informe de analisis de datos\par}
+
+    \vfill
+
+    \begin{flushleft}
+        \textbf{Materia:} Laboratorio de Metodos Cuantitativos
+
+        \vspace{0.3cm}
+
+        \textbf{Integrantes:}
+        \begin{itemize}
+            \item Rocío Ojeda -- OjedaRocio
+            \item Valentina Fernandez Zurita -- valentinafernandezu
+            \item Hilda Anabel Martinez Uriarte -- hildaanabel
+            \item Tania Andrea Campos Aliaga -- tania-1604
+        \end{itemize}
+
+        \textbf{Dataset:} track\_data\_final.csv
+
+        \textbf{Repositorio GitHub:}
+        \url{https://github.com/OjedaRocio/TP-Grupal-Laboratorio-2C-2026}
+
+        \textbf{Fecha de entrega:} 6 de noviembre de 2026
+    \end{flushleft}
+
+\end{titlepage}
+
+% ==========================================
+% 3. INFORME ACADEMICO
+% ==========================================
+
+\section{Resumen}
+
+El presente trabajo busca analizar la evolución de la duración de las canciones globales a lo largo del tiempo, con el objetivo de determinar si existe una tendencia hacia canciones cada vez más cortas. A partir del análisis de los datos disponibles, se examinarán las variaciones en la duración promedio por año y las diferencias entre distintos períodos, con el fin de identificar patrones temporales y evaluar si los resultados respaldan la hipótesis planteada.
+
+\section{Introduccion}
+
+La duracion de las canciones constituye una caracteristica
+relevante para estudiar los cambios en la produccion musical.
+La posible reduccion de la duracion a lo largo del tiempo
+puede relacionarse con transformaciones en los formatos de
+consumo, las estrategias de publicacion y las plataformas
+digitales. Sin embargo, estas explicaciones requieren
+evidencia adicional y no pueden inferirse unicamente a
+partir de la duracion.
+
+
+
+La pregunta de investigacion es:
+\textit{¿Es verdad que las canciones globales se volvieron
+mas cortas a lo largo del tiempo?}
+
+
+
+\section{Datos y metodologia}
+
+\subsection{Descripcion del dataset}
+
+El analisis utiliza el archivo
+\texttt{track\_data\_final.csv}. Entre las variables de
+interes se encuentran la fecha de lanzamiento del album
+(\texttt{album\_release\_date}) y la duracion de la pista
+(\texttt{track\_duration\_ms}).
+
+La fecha se utiliza para construir una variable temporal,
+mientras que la duracion se convierte de milisegundos
+a minutos mediante la siguiente expresion:
+
+\[
+\text{Duracion en minutos}
+=
+\frac{\text{Duracion en milisegundos}}{60000}
+\]
+
+\subsection{Preparacion de los datos}
+
+Se examinan los tipos de datos, los valores faltantes,
+los registros duplicados y los valores atipicos. Las
+transformaciones aplicadas se documentan indicando su
+justificacion y su efecto sobre la muestra.
+
+\subsection{Estrategia de analisis}
+
+Se calcula la duracion promedio por ano y por periodo.
+Ademas, se comparan medidas descriptivas y se representan
+graficamente los resultados. La cantidad de observaciones
+disponibles en cada periodo se considera al interpretar
+las diferencias.
+
+La fecha del album se utiliza como aproximacion temporal
+cuando no se dispone de la fecha original de lanzamiento
+de cada pista.
+
+\section{Resultados}
+
+\subsection{Evolucion temporal de la duracion}
+
+La Figura \ref{fig:evolucion} presenta la evolucion de la
+duracion promedio por ano. El grafico permitira evaluar
+si la serie muestra una tendencia descendente, ascendente
+o sin una direccion clara.
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{evolucion_duracion.png}{
+        \includegraphics[width=0.9\textwidth]
+        {evolucion_duracion.png}
+    }{
+        \fbox{
+            \parbox[c][4cm][c]{0.85\textwidth}{
+                \centering
+                Insertar aqui el grafico
+                evolucion\_duracion.png
+            }
+        }
+    }
+    \caption{Evolucion de la duracion promedio por ano.}
+    \label{fig:evolucion}
+\end{figure}
+
+La interpretacion de este grafico se completara a partir
+de los resultados obtenidos en Python, considerando
+posibles fluctuaciones y diferencias en el numero de
+observaciones por ano.
+
+\subsection{Distribucion de la duracion}
+
+La Figura \ref{fig:distribucion} muestra la distribucion
+de la duracion de las canciones. Su analisis permite
+examinar la concentracion de los valores, la dispersion
+y la presencia de observaciones extremas.
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{distribucion_duracion.png}{
+        \includegraphics[width=0.85\textwidth]
+        {distribucion_duracion.png}
+    }{
+        \fbox{
+            \parbox[c][4cm][c]{0.8\textwidth}{
+                \centering
+                Insertar aqui el grafico
+                distribucion\_duracion.png
+            }
+        }
+    }
+    \caption{Distribucion de la duracion de las canciones.}
+    \label{fig:distribucion}
+\end{figure}
+
+Los resultados descriptivos permitiran evaluar si el
+promedio constituye una medida representativa de la
+duracion de las canciones incluidas en la muestra.
+
+\subsection{Cantidad de observaciones por periodo}
+
+La Figura \ref{fig:observaciones} presenta la cantidad
+de canciones analizadas en cada periodo. Esta informacion
+es importante para contextualizar las comparaciones y
+detectar periodos con una representacion limitada.
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{observaciones_periodo.png}{
+        \includegraphics[width=0.85\textwidth]
+        {observaciones_periodo.png}
+    }{
+        \fbox{
+            \parbox[c][4cm][c]{0.8\textwidth}{
+                \centering
+                Insertar aqui el grafico
+                observaciones\_periodo.png
+            }
+        }
+    }
+    \caption{Cantidad de canciones por periodo analizado.}
+    \label{fig:observaciones}
+\end{figure}
+
+\subsection{Resumen estadistico}
+
+La Tabla \ref{tab:resumen} se completara con los
+estadisticos calculados en el notebook.
+
+\begin{table}[H]
+    \centering
+    \caption{Duracion de las canciones por periodo.}
+    \label{tab:resumen}
+    \begin{tabular}{lrrr}
+        \toprule
+        Periodo & Cantidad & Promedio (min) & Mediana (min) \\
+        \midrule
+        Periodo 1 & -- & -- & -- \\
+        Periodo 2 & -- & -- & -- \\
+        Periodo 3 & -- & -- & -- \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+La comparacion entre periodos permitira establecer si
+las diferencias observadas son consistentes con una
+reduccion de la duracion promedio.
+
+\section{Conclusiones}
+
+La conclusion final debera responder explicitamente
+la pregunta de investigacion a partir de los resultados
+obtenidos.
+
+Se indicara si los datos muestran evidencia de una
+reduccion de la duracion, si la tendencia no resulta
+clara o si los resultados son insuficientes para sostener
+una conclusion.
+
+Entre las limitaciones a considerar se encuentran la
+representatividad de la muestra, la disponibilidad de
+fechas validas, la posible desigualdad en la cantidad
+de observaciones por periodo y la diferencia entre la
+fecha de lanzamiento del album y la de la pista.
+
+Como extension futura, podria analizarse una fuente
+que identifique explicitamente las canciones de alcance
+global y permita contrastar los resultados con una
+muestra mas representativa.
+
+\section{Reflexion metodologica}
+
+Se utilizo inteligencia artificial como herramienta
+de asistencia para organizar el informe, proponer
+procedimientos de analisis y mejorar la presentacion
+de los resultados.
+
+Las decisiones metodologicas, la verificacion de los
+calculos y la interpretacion final deben ser revisadas
+por los integrantes del grupo mediante la comparacion
+con el notebook ejecutado y los datos originales.
+
+La version definitiva documentara los usos concretos
+de IA, las instrucciones empleadas y las revisiones
+realizadas por el grupo.
+
+\section{Bibliografia}
+
+\begin{itemize}
+    \item Dataset: \textit{track\_data\_final.csv}.
+    https://www.kaggle.com/datasets/wardabilal/spotify-global-music-dataset-20092025?resource=download
+
+
+\end{itemize}
+
+\end{document}
