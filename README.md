@@ -16,7 +16,7 @@ Tecnicatura Universitaria en Gestión y Análisis de Datos en Organizaciones · 
 
 ## Pregunta de investigación
 
-> **¿Es verdad que las canciones se volvieron mas cortas a lo largo del tiempo**
+> **¿Es verdad que las canciones se volvieron mas cortas a lo largo del tiempo?**
 
 
 
