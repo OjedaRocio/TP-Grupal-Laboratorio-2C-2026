@@ -83,7 +83,7 @@ La duración no es una variable artística aislada, sino una **respuesta estrat�
 
 ## Uso de IA
 
-Se utilizó inteligencia artificial como asistente en distintas etapas del trabajo. En el notebook se indica qué celdas contaron con asistencia y qué prompt se utilizó. El informe fue revisado por todos los integrantes contrastando cada afirmación con el notebook y los datos originales. Más detalle en la sección 6 del informe (reflexión metodológica).
+Se utilizó inteligencia artificial como asistente en distintas etapas del trabajo. En el notebook se indica qué celdas contaron con asistencia y qué prompt se utilizó. El informe fue revisado por todos los integrantes contrastando cada afirmación con el notebook y los datos originales.
 
 ---
 
