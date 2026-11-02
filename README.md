@@ -22,11 +22,21 @@ Tecnicatura Universitaria en Gestión y Análisis de Datos en Organizaciones · 
 
 ## Resumen
 
-_COMPLETAR EL FINAL: qué dataset se usó, qué se hizo y qué se encontró._
+## 🎵 Análisis de la Duración de Canciones en Spotify (2009–2025)
 
+Este repositorio investiga empíricamente si las canciones globales se volvieron más cortas con el tiempo. Utilizando técnicas de limpieza, filtrado y análisis estadístico sobre un dataset de Spotify, el estudio confirma la hipótesis central.
+
+### 📌 Hallazgos Clave
+
+* **Tendencia decreciente:** La duración promedio cayó de forma sostenida desde 2013, pasando de más de **3:48 min** a mínimos cercanos a los **3:00 min** en la actualidad.
+* **Reconfiguración del mercado:** Las canciones cortas ($<3$ min) pasaron del **14.8%** (2009–2014) al **47.1%** (2020–2025). En contraste, los temas largos ($>4$ min) cayeron del **36.7%** al **13.1%**.
+* **Ausencia de penalización comercial:** La correlación ($r = 0.11$) demuestra que hacer temas más cortos no castiga su popularidad; rinden igual que los formatos tradicionales.
+
+### 💡 Conclusión
+La duración no es una variable artística aislada, sino una **respuesta estratégica** a los incentivos del streaming, los algoritmos y la economía de la atención.
 ---
 
-## Entregables ( ESTO CHEQUEAR SI SE QUEDA O NO)
+## Entregables
 
 | Parte | Descripción | Enlace / archivo |
 |---|---|---|
