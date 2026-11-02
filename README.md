@@ -30,11 +30,10 @@ _COMPLETAR EL FINAL: qué dataset se usó, qué se hizo y qué se encontró._
 
 | Parte | Descripción | Enlace / archivo |
 |---|---|---|
-| Parte 1 | Notebook de análisis (ejecutado) | [`notebook/tp_grupal.ipynb`](notebook/tp_grupal.ipynb) · [Abrir en Colab](https://colab.research.google.com/) _(pegar link)_ |
+| Parte 1 | Notebook de análisis (ejecutado) | [`notebook/tp_grupal.ipynb`](notebook/tp_grupal.ipynb) · [Abrir en Colab](https://colab.research.google.com/) |
 | Parte 2 | Informe académico (PDF) | [`informe/informe.pdf`](informe/informe.pdf) |
-| Parte 2 | Proyecto en Overleaf (si se usó LaTeX) | _pegar link_ |
+| Parte 2 | Proyecto en Overleaf (si se usó LaTeX) | https://www.overleaf.com/project/6adf531f9fb5bca0fde01489/share#e35f65eacd8635c0a76f744ade2d2921b75845e5ca54922e |
 | Parte 3 | Presentación de diapositivas | _pegar link o_ [`presentacion/presentacion.pdf`](presentacion/presentacion.pdf) |
-| Parte 3 (opcional) | Video o sitio web | _pegar link o borrar esta fila_ |
 
 ---
 
@@ -72,7 +71,7 @@ _COMPLETAR EL FINAL: qué dataset se usó, qué se hizo y qué se encontró._
 
 ---
 
-## Uso de IA ( CHEQUEAR AL FINAL) 
+## Uso de IA
 
 Se utilizó inteligencia artificial como asistente en distintas etapas del trabajo. En el notebook se indica qué celdas contaron con asistencia y qué prompt se utilizó. El informe fue revisado por todos los integrantes contrastando cada afirmación con el notebook y los datos originales. Más detalle en la sección 6 del informe (reflexión metodológica).
 
