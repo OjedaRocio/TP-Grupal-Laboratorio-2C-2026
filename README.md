@@ -24,7 +24,7 @@ Tecnicatura Universitaria en Gestión y Análisis de Datos en Organizaciones · 
 
 ## 🎵 Análisis de la Duración de Canciones en Spotify (2009–2025)
 
-Este repositorio investiga empíricamente si las canciones globales se volvieron más cortas con el tiempo. Utilizando técnicas de limpieza, filtrado y análisis estadístico sobre un dataset de Spotify, el estudio confirma la hipótesis central.
+Este repositorio investiga empíricamente si las canciones se volvieron más cortas con el tiempo. Utilizando técnicas de limpieza, filtrado y análisis estadístico sobre un dataset de Spotify, el estudio confirma la hipótesis central.
 
 ### 📌 Hallazgos Clave
 
