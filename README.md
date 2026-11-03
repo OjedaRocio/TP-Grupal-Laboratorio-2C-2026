@@ -10,7 +10,6 @@ Tecnicatura Universitaria en Gestión y Análisis de Datos en Organizaciones · 
 | Rocio Ojeda | 921426 | OjedaRocio |
 | Valentina Fernández Zurita | 921469 | valentinafernandezu |
 | Hilda Anabel Martinez Uriarte | 921802 | hildaanabel |
-| Tania Andrea Campos Aliaga | 921715 | tania-1604 |
 
 ---
 
