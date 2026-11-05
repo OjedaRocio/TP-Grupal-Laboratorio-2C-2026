@@ -42,7 +42,7 @@ La duración no es una variable artística aislada, sino una **respuesta estrat�
 | Parte 1 | Notebook de análisis (ejecutado) | [TP_Grupal.ipynb](TP_Grupal.ipynb) · [Abrir en Colab](https://colab.research.google.com/github/OjedaRocio/TP-Grupal-Laboratorio-2C-2026/blob/main/TP_Grupal.ipynb) |
 | Parte 2 | Informe académico (PDF) | [Informe.pdf](Informe.pdf) |
 | Parte 2 | Proyecto en Overleaf (si se usó LaTeX) | [Proyecto en Overleaf](https://www.overleaf.com/project/6adf531f9fb5bca0fde01489/share#e35f65eacd8635c0a76f744ade2d2921b75845e5ca54922e) |
-| Parte 3 | Presentación de diapositivas | [Presentacion.pdf](Presentacion.pdf) |
+| Parte 3 | Presentación de diapositivas | [Presentacion.pdf](Presentacion_Final.pdf) |
 
 ---
 
