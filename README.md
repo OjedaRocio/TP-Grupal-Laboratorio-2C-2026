@@ -76,7 +76,7 @@ La duración no es una variable artística aislada, sino una **respuesta estrat�
 
 ---
 
- ESTO CHEQUEAR AL FINAL: Librerías utilizadas: `pandas`, `numpy`, `matplotlib`, `seaborn`.
+ Librerías utilizadas: `pandas`, `numpy`, `matplotlib`, `seaborn`.
 
 ---
 
